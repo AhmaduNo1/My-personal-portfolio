@@ -1,0 +1,96 @@
+.footer-section {
+  background-color: #1a1a1a;
+  padding: 10px 20px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.footer-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+
+.icon-container a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.linkedin {
+  color: #0077b5;
+}
+
+.tiktok {
+  color: #010101;
+  box-shadow: 0 0 10px rgba(161, 152, 152, 0.1);
+}
+
+.whatsapp,
+.phone {
+  color: #25d366;
+}
+
+.icon-label {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.footer-note {
+  font-size: 0.8rem;
+  color: #cccccc;
+  margin-top: 20px;
+  text-align: center;
+}
