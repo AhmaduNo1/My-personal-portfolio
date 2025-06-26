@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import "./footer.css";
 import { FaPhoneAlt } from "react-icons/fa";
 import { AiFillTikTok } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa";
